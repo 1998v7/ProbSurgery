@@ -26,7 +26,7 @@ Our code is built upon the pytorch implementation of <a href="https://github.com
 
 ### Python Environment
 See the file: "_**environment.yaml**_"
-You can rebuild this python environment in you machine via this cammond. 
+You can rebuild this python environment in your machine via this command. 
 <pre> conda env create -f environment.yaml </pre>
 
 
