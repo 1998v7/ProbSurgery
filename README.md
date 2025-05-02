@@ -36,8 +36,6 @@ We keep the same setting with almost all model merging methods (like ties mergin
 **1. Download checkpoints for CLIP** (ViT-B/32, ViT-B/16 and ViT-L/14) are available on this link, including fine-tuned checkpoints on eight downstream tasks: Stanford Cars, DTD, EuroSAT, GTSRB, MNIST, RESISC45, SUN397 and SVHN.
 <a href="https://drive.google.com/drive/folders/1u_Tva6x0p6oxu5Eo0ZZsf-520Cc_3MKw" target="_blank">Model Checkpoints</a>.
 
-*Note: When using torch.load(xxx_checkpoint).state_dict() fails, you can try pickle.load(open(xxx_checkpoint, 'rb')).state_dict()*
-
 **2. Download datasets**
 See the links provided in "**_data_link.txt_**"
 
