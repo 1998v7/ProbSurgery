@@ -3,7 +3,20 @@
 Our paper "**Representation Surgery in Model Merging with Probabilistic Modeling**" was accepted by the 42nd International Conference on Machine Learning (**ICML 2025**). Thanks to all collaborators!
 
 ### Abstract
-> Model merging aims to achieve multitask performance by merging multiple expert models without the need to access the raw training data. Recent research identified the representation bias of model merging, characterized by a discrepancy in the representation distribution between the merged and individual models, hindering the performance of model merging methods. To mitigate this bias, a task-specific MLP, Surgery, was built to model the bias that is subsequently decreased on the merged representation. However, this strategy is still suboptimal due to the limited modeling capability within the deterministic manner. To address this issue, we present ProbSurgery, a probabilistic module specifically designed to accurately model the representation bias. This module generates an embedding distribution for each sample and outputs the representation bias through a sampling process. ProbSurgery offers superior representational capacity by naturally handling the uncertainty resulting from parameter interference of merging multiple models.  Besides, we provide a theoretical analysis to reveal the advance of the probabilistic manner and propose an extension of ProSurgery for adapting to the task-sharing setting. Extensive experiments verify the effectiveness of ProbSurgery for representation surgery while maintaining generalization capabilities in real-world scenarios. 
+> Model merging aims to achieve multitask performance by merging multiple expert models without the need to access the raw training data. Recent research identified the representation bias of model merging, characterized by a discrepancy in the representation distribution between the merged and individual models, hindering the performance of model merging methods. To mitigate this bias, a task-specific MLP, Surgery, was built to model the bias that is subsequently decreased on the merged representation. However, this strategy is still suboptimal due to the limited modeling capability within the deterministic manner. To address this issue, we present ProbSurgery, a probabilistic module specifically designed to accurately model the representation bias. This module generates an embedding distribution for each sample and outputs the representation bias through a sampling process. ProbSurgery offers superior representational capacity by naturally handling the uncertainty resulting from parameter interference of merging multiple models.  Besides, we provide a theoretical analysis to reveal the advance of the probabilistic manner and propose an extension of ProSurgery for adapting to the task-sharing setting. Extensive experiments verify the effectiveness of ProbSurgery for representation surgery while maintaining generalization capabilities in real-world scenarios.
+
+### Performance
+
+> Visualization: Better representation. (Left: GTSRB, Right: RESISC45)
+<p align="center">
+  <img src="imgs/vis_classcluster_task_arithmetic_GTSRB.png" alt="Image 1" width="40%" />
+  <img src="imgs/vis_classcluster_task_arithmetic_RESISC45.png" alt="Image 2" width="40%" />
+</p>
+
+> Fewer discrepancy in the representation distribution between the merged and individual models
+<p align="center">
+  <img src="imgs/L1_distance.png" alt="Image 1" width="80%" />
+</p>
 
 
 # Run Our Code
