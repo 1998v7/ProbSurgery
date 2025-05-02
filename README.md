@@ -17,9 +17,7 @@ You can rebuild this python environment in you machine via this cammond.
 <pre> conda env create -f environment.yaml </pre>
 
 
-
-
-### Step 1: Dataset and checkpoint preparetion.
+### Step 1: Dataset and checkpoint preparetion
 We keep the same setting with almost all model merging methods (like ties merging, task arithmetic, and Surgery).
 
 **1. Download checkpoints for CLIP** (ViT-B/32, ViT-B/16 and ViT-L/14) are available on this link, including fine-tuned checkpoints on eight downstream tasks: Stanford Cars, DTD, EuroSAT, GTSRB, MNIST, RESISC45, SUN397 and SVHN.
@@ -29,3 +27,11 @@ We keep the same setting with almost all model merging methods (like ties mergin
 
 **2. Download datasets**
 See the links provided in "**_data_link.txt_**"
+
+### Step 2: Train and Evaluation
+After download the model CKPT and dataset, set their default path in the file "_**MainCode/run/path_config.py**_"
+
+
+"cd the MainCode" and Run:
+
+<pre>python run.py </pre>
