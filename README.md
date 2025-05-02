@@ -9,13 +9,13 @@ Our paper "**Representation Surgery in Model Merging with Probabilistic Modeling
 
 > Visualization: Better representation. (Left: GTSRB, Right: RESISC45)
 <p align="center">
-  <img src="imgs/vis_classcluster_task_arithmetic_GTSRB.png" alt="Image 1" width="40%" />
-  <img src="imgs/vis_classcluster_task_arithmetic_RESISC45.png" alt="Image 2" width="40%" />
+  <img src="imgs/vis_classcluster_task_arithmetic_GTSRB.png" alt="Image 1" width="45%" />
+  <img src="imgs/vis_classcluster_task_arithmetic_RESISC45.png" alt="Image 2" width="45%" />
 </p>
 
 > Fewer discrepancy in the representation distribution between the merged and individual models
 <p align="center">
-  <img src="imgs/L1_distance.png" alt="Image 1" width="80%" />
+  <img src="imgs/L1_distance.png" alt="Image 1" width="90%" />
 </p>
 
 
