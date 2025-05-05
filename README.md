@@ -25,9 +25,12 @@ Our code is built upon the pytorch implementation of <a href="https://github.com
 *Note: We modified the training procedure in Surgery by pre-loading many batches first and then training our ProbSurgery modules, which could fasts the training processes for a large degree. The number of pre-loaded batches is dependent on the capibility of your machine (**not GPU memory but the number of threads supported by the CPU**).*
 
 ### Python Environment
-See the file: "_**environment.yaml**_"
-You can rebuild this python environment in your machine via this command. 
-<pre> conda env create -f environment.yaml </pre>
+<pre>  numpy==1.26.4
+  open-clip-torch==2.0.2
+  torch==1.13.0
+  torchaudio==0.13.0
+  torchvision==0.14.0
+</pre>
 
 
 ### Step 1: Dataset and checkpoint preparetion
