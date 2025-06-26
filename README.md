@@ -50,3 +50,14 @@ After download the model CKPT and dataset, set their default path in the file "_
 cd code
 python run.py 
 </pre>
+
+If you find the code useful, please consider citing our paper:
+<pre>
+@inproceedings{
+wei2025representation,
+title={Representation Surgery in Model Merging with Probabilistic Modeling},
+author={Qi Wei and Shuo He and Enneng Yang and Tingcong Liu and Haobo Wang and Lei Feng and Bo An},
+booktitle={Forty-second International Conference on Machine Learning},
+year={2025}
+} 
+</pre>
