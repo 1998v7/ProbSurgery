@@ -4,9 +4,9 @@ import subprocess
 import warnings
 warnings.filterwarnings("ignore")
 
+# ======= you can change the following parameter during training =========
 # --model-name ViT-B-32 ViT-B-16 ViT-L-14 
 # --method-name weight_averaging task_arithmetic ties_merging lw_adamerging
-# --DFA True
 # --loss_func L1_loss mse_Loss smoothL1_Loss CosineSimilarity
 
 
