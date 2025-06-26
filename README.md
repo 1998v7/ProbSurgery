@@ -43,9 +43,10 @@ We keep the same setting with almost all model merging methods (like ties mergin
 See the links provided in "**_data_link.txt_**"
 
 ### Step 2: Train and Evaluation
-After download the model CKPT and dataset, set their default path in the file "_**MainCode/run/path_config.py**_"
+After download the model CKPT and dataset, set their default path in the file "_**code/run/path_config.py**_"
 
 
-"cd the MainCode" and Run:
-
-<pre>python run.py </pre>
+<pre>
+cd code
+python run.py 
+</pre>
